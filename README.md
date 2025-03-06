@@ -1,3 +1,23 @@
+```java
+package domain;
+
+public class Customer {
+    public int ID = 1;
+    public boolean isNew = true;
+    public double total = 1000;
+    
+    public void displayCustomerinfo() {
+        System.out.println("Customer ID: " + ID);
+        System.out.println("Is customer new: " + isNew);
+        System.out.println("Total: " + total);
+  } 
+    
+}
+
+```
+
+[Program works well]()
+
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18535335)
 # Створення класів
 
